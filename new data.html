@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NWTechnoloys</title>
+    <style>
+        /* Basic styles for the layout */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .buttons {
+            margin-bottom: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #ddd;
+        }
+        /* Custom colors for each button */
+        .button:nth-child(1) {
+            background-color: #ff9999;
+        }
+        .button:nth-child(2) {
+            background-color: #99ccff;
+        }
+        .button:nth-child(3) {
+            background-color: #99ff99;
+        }
+        .File-content {
+            display: none;
+        }
+        .File-content.active {
+            display: block;
+        }
+        iframe {
+            border: 0;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="buttons">
+        <div class="button" onclick="showFile(1)">File 1</div>
+        <div class="button" onclick="showFile(2)">File 2</div>
+        <div class="button" onclick="showFile(3)">File 3</div>
+    </div>
+
+    <div id="File1" class="File-content">
+        <h2>File 1</h2>
+        <p>Sample (Dashboard).</p>
+        <iframe src="https://af91-2a02-8428-e095-b401-5ddc-2fd3-179c-9451.ngrok-free.app/d-solo/fdmcybex7u874f/sample?orgId=1&refresh=1m&from=1716945725620&to=1716967325620&panelId=1" width="1350" height="400"></iframe>
+        <iframe src="https://af91-2a02-8428-e095-b401-5ddc-2fd3-179c-9451.ngrok-free.app/d-solo/fdmcybex7u874f/sample?orgId=1&refresh=1m&panelId=4" width="450" height="200"></iframe>
+        <iframe src="https://af91-2a02-8428-e095-b401-5ddc-2fd3-179c-9451.ngrok-free.app/d-solo/fdmcybex7u874f/sample?orgId=1&refresh=1m&panelId=3" width="450" height="200"></iframe>
+        <iframe src="https://af91-2a02-8428-e095-b401-5ddc-2fd3-179c-9451.ngrok-free.app/d-solo/fdmcybex7u874f/sample?orgId=1&refresh=1m&panelId=2" width="450" height="200"></iframe>
+        <iframe src="https://af91-2a02-8428-e095-b401-5ddc-2fd3-179c-9451.ngrok-free.app/d-solo/fdmcybex7u874f/sample?orgId=1&refresh=1m&panelId=5" width="450" height="200"></iframe>
+        <iframe src="https://af91-2a02-8428-e095-b401-5ddc-2fd3-179c-9451.ngrok-free.app/d-solo/fdmcybex7u874f/sample?orgId=1&refresh=1m&panelId=6" width="450" height="200"></iframe>
+        <iframe src="https://af91-2a02-8428-e095-b401-5ddc-2fd3-179c-9451.ngrok-free.app/d-solo/fdmcybex7u874f/sample?orgId=1&refresh=1m&panelId=7" width="450" height="200"></iframe>
+        <iframe src="https://af91-2a02-8428-e095-b401-5ddc-2fd3-179c-9451.ngrok-free.app/d-solo/fdmcybex7u874f/sample?orgId=1&refresh=1m&panelId=8" width="450" height="200"></iframe>
+        <iframe src="https://af91-2a02-8428-e095-b401-5ddc-2fd3-179c-9451.ngrok-free.app/d-solo/fdmcybex7u874f/sample?orgId=1&refresh=1m&panelId=9" width="450" height="200"></iframe>
+        <iframe src="https://af91-2a02-8428-e095-b401-5ddc-2fd3-179c-9451.ngrok-free.app/d-solo/fdmcybex7u874f/sample?orgId=1&refresh=1m&panelId=10" width="450" height="200"></iframe>
+        <iframe src="https://af91-2a02-8428-e095-b401-5ddc-2fd3-179c-9451.ngrok-free.app/d-solo/fdmcybex7u874f/sample?orgId=1&refresh=1m&panelId=11" width="450" height="200"></iframe>
+        <iframe src="https://af91-2a02-8428-e095-b401-5ddc-2fd3-179c-9451.ngrok-free.app/d-solo/fdmcybex7u874f/sample?orgId=1&refresh=1m&panelId=12" width="450" height="200"></iframe>
+        <iframe src="https://af91-2a02-8428-e095-b401-5ddc-2fd3-179c-9451.ngrok-free.app/d-solo/fdmcybex7u874f/sample?orgId=1&refresh=1m&panelId=13" width="450" height="200"></iframe>
+        <iframe src="https://af91-2a02-8428-e095-b401-5ddc-2fd3-179c-9451.ngrok-free.app/d-solo/fdmcybex7u874f/sample?orgId=1&refresh=1m&panelId=14" width="450" height="200"></iframe>
+        </div>
+        
+        <div id="File2" class="File-content">
+            <h2>File 2</h2>
+            <p>New Dash (Dashboard).</p>
+            <iframe src="http://localhost:3000/d-solo/edlvsn1qq2j9cc/new-dash?orgId=1&refresh=1m&from=1717390608746&to=1717412208746&panelId=1" width="450" height="200" frameborder="0"></iframe>
+        </div>
+        
+        <div id="File3" class="File-content">
+            <h2>File 3</h2>
+            <p>New Dash Copy.</p>
+            <iframe src="https://af91-2a02-8428-e095-b401-5ddc-2fd3-179c-9451.ngrok-free.app/d-solo/fdlysq00e8000e/new-dash-copy?orgId=1&refresh=1m&from=1716946012524&to=1716967612524&panelId=1" width="1350" height="500" frameborder="0"></iframe>
+            <iframe src="https://af91-2a02-8428-e095-b401-5ddc-2fd3-179c-9451.ngrok-free.app/d-solo/fdlysq00e8000e/new-dash-copy?orgId=1&refresh=1m&from=1716946067404&to=1716967667405&panelId=2" width="450" height="200" frameborder="0"></iframe>
+            <iframe src="https://af91-2a02-8428-e095-b401-5ddc-2fd3-179c-9451.ngrok-free.app/d-solo/fdlysq00e8000e/new-dash-copy?orgId=1&refresh=1m&from=1716946096155&to=1716967696156&panelId=3" width="450" height="200" frameborder="0"></iframe>
+            <iframe src="https://af91-2a02-8428-e095-b401-5ddc-2fd3-179c-9451.ngrok-free.app/d-solo/fdlysq00e8000e/new-dash-copy?orgId=1&refresh=1m&from=1716946108762&to=1716967708763&panelId=5" width="450" height="200" frameborder="0"></iframe>
+        </div>
+        
+        <script>
+            function showFile(file) {
+                // Hide all File-content
+                document.querySelectorAll('.File-content').forEach(function(el) {
+                    el.classList.remove('active');
+                });
+                // Show the selected File-content
+                document.getElementById('File' + file).classList.add('active');
+            }
+        </script>
+        </body>
+        </html>
+        
